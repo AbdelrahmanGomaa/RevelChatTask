@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         txt_send = findViewById(R.id.txt_send);
 
         intent = getIntent();
-         final String userid = intent.getStringExtra("userid");
+         //final String userid = intent.getStringExtra("userid");
 
 
 
@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
                 for (DataSnapshot postSnapshot : dataSnapshot.getChildren()) {
                     User user = dataSnapshot.getValue(User.class);
                     username.setText(user.getUsername());
-                    readMessgae(currentUser.getUid(), userid);
+                    readMessgae(currentUser.getUid());
 
                 }
 
@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
         reference.child(currentUser.getUid()).push().setValue(hashMap);
     }
 
-    private void readMessgae( final String my_id, final String user_id){
+    private void readMessgae( final String my_id){
         mchat = new ArrayList<>();
 
         reference = FirebaseDatabase.getInstance().getReference("Chats").child(currentUser.getUid());
@@ -154,8 +154,7 @@ public class MainActivity extends AppCompatActivity {
                 mchat.clear();
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()){
                     Chat chat = snapshot.getValue(Chat.class);
-                    if (chat.getSender().equals(user_id) ||
-                          chat.getSender().equals(my_id)){
+                    if (chat.getSender().equals(my_id)){
                         mchat.add(chat);
                     }
 
