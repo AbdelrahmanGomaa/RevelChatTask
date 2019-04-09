@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "26072806176",
+    "firebase_url": "https://chatapp-c9f37.firebaseio.com",
+    "project_id": "chatapp-c9f37",
+    "storage_bucket": "chatapp-c9f37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26072806176:android:7630a2e8ae4edf70",
+        "android_client_info": {
+          "package_name": "gomaa.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26072806176-r9ss7703980ie3msvteohqq4ridta64n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gomaa.chatapp",
+            "certificate_hash": "ba84c339df8e98c0461c164950610135501c80b9"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6u7xAhEqM4Bq4GYf_GnpZXD56Ny6qFc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26072806176-114hlfmmhcod8id8uk5c729uhst19m47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26072806176:android:b965297d46176e6e",
+        "android_client_info": {
+          "package_name": "gomaa.firebasechatclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26072806176-rsc8mjv6bqsmmh0rr1soa31dmjl0ic58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gomaa.firebasechatclone",
+            "certificate_hash": "ba84c339df8e98c0461c164950610135501c80b9"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6u7xAhEqM4Bq4GYf_GnpZXD56Ny6qFc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26072806176-114hlfmmhcod8id8uk5c729uhst19m47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26072806176:android:d1246c56e1fda1e2",
+        "android_client_info": {
+          "package_name": "gomaa.revelchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26072806176-cuu1lnt9g0516m4vmvujop1n18mkjtuh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gomaa.revelchat",
+            "certificate_hash": "ba84c339df8e98c0461c164950610135501c80b9"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6u7xAhEqM4Bq4GYf_GnpZXD56Ny6qFc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26072806176-114hlfmmhcod8id8uk5c729uhst19m47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26072806176:android:efce4871c77970bf",
+        "android_client_info": {
+          "package_name": "gomaa.revelchattask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26072806176-hmpd4k7v69cmofp9jfgt032qsr224oji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gomaa.revelchattask",
+            "certificate_hash": "ba84c339df8e98c0461c164950610135501c80b9"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6u7xAhEqM4Bq4GYf_GnpZXD56Ny6qFc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26072806176-114hlfmmhcod8id8uk5c729uhst19m47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
